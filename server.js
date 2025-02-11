@@ -3,6 +3,7 @@ import morgan from "morgan";
 import mongoose from "mongoose";
 import cors from "cors";
 const app = express();
+// import { DATABASE } from "./config.js";
 import { DATABASE } from "./config.js";
 import Authroute from "./route/auth.js";
 import Adroute from "./route/ad.js"
